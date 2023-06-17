@@ -1,0 +1,10 @@
+# RandomNumberGenerator - Simple Python program to generate random numbers
+
+import random
+
+def generate_random_number(start, end):
+    return random.randint(start, end)
+
+# Generate a random number between 1 and 10
+random_number = generate_random_number(1, 10)
+print("Random Number:", random_number)
